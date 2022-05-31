@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ark Shelter</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body> 
+    <div class="fondo">
+        <svg class="logo" viewBox="0 0 150 13"> <path d="M10.1,12L9.2,9.7H3.7L2.7,12h-2.8L5.1,0.1h2.8L13,12H10.1z M4.5,7.5h3.8L6.4,2.9L4.5,7.5z
+            M27.3,12h-3l-1.9-3.4h-2.7V12h-2.7V0.1h5.2c3.1,0,4.9,1.5,4.9,4.1c0,1.8-0.8,3.2-2.2,3.8L27.3,12z M19.6,2.3v4h2.5
+           c1.5,0,2.3-0.7,2.3-2c0-1.3-0.8-2-2.3-2H19.6z M43,12h-3.2l-3.4-4.8l-1.7,1.9V12h-2.7V0.1h2.7v5.4l4.9-5.4h3.1l-4.5,5L43,12z
+            M46.8,5.9h4.4v1.7h-4.4V5.9z M64,3.5c-1.3-0.7-2.8-1.2-3.7-1.2c-0.9,0-1.5,0.3-1.5,1c0,2.2,6.3,1,6.3,5.3c0,2.3-2,3.6-4.7,3.6
+           c-2,0-3.9-0.7-5.3-1.9L56.3,8c1.2,1.1,3,1.8,4.2,1.8c1.1,0,1.8-0.4,1.8-1.1c0-2.2-6.3-0.9-6.3-5.2c0-2.2,1.9-3.5,4.6-3.5
+           c1.7,0,3.3,0.5,4.5,1.3L64,3.5z M69.7,0.1h2.7v5h5.4v-5h2.7V12h-2.7V7.3h-5.4V12h-2.7V0.1z M85.8,0.1h9.1v2.2h-6.4v2.6h5.7v2.2h-5.7
+           v2.6H95V12h-9.2V0.1z M99.8,0.1h2.7v9.6h5.1V12h-7.8V0.1z M110.7,0.1h9.9v2.3h-3.6V12h-2.7V2.4h-3.6V0.1z M124.8,0.1h9.1v2.2h-6.4
+           v2.6h5.7v2.2h-5.7v2.6h6.6V12h-9.2V0.1z M149.2,12h-3l-1.9-3.4h-2.7V12h-2.7V0.1h5.2c3.1,0,4.9,1.5,4.9,4.1c0,1.8-0.8,3.2-2.2,3.8
+           L149.2,12z M141.6,2.3v4h2.5c1.5,0,2.3-0.7,2.3-2c0-1.3-0.9-2-2.3-2H141.6z"></path></svg>
+        <div class="blanco">
+               <div class="negro"></div>
+        </div>
+    </div>
+    <header class="header">
+        <div class="wrapper">
+            <h1 class="h1">
+                <a href="#" class="a">
+                    <svg class="logo" viewBox="0 0 150 13"> <path d="M10.1,12L9.2,9.7H3.7L2.7,12h-2.8L5.1,0.1h2.8L13,12H10.1z M4.5,7.5h3.8L6.4,2.9L4.5,7.5z
+                        M27.3,12h-3l-1.9-3.4h-2.7V12h-2.7V0.1h5.2c3.1,0,4.9,1.5,4.9,4.1c0,1.8-0.8,3.2-2.2,3.8L27.3,12z M19.6,2.3v4h2.5
+                       c1.5,0,2.3-0.7,2.3-2c0-1.3-0.8-2-2.3-2H19.6z M43,12h-3.2l-3.4-4.8l-1.7,1.9V12h-2.7V0.1h2.7v5.4l4.9-5.4h3.1l-4.5,5L43,12z
+                        M46.8,5.9h4.4v1.7h-4.4V5.9z M64,3.5c-1.3-0.7-2.8-1.2-3.7-1.2c-0.9,0-1.5,0.3-1.5,1c0,2.2,6.3,1,6.3,5.3c0,2.3-2,3.6-4.7,3.6
+                       c-2,0-3.9-0.7-5.3-1.9L56.3,8c1.2,1.1,3,1.8,4.2,1.8c1.1,0,1.8-0.4,1.8-1.1c0-2.2-6.3-0.9-6.3-5.2c0-2.2,1.9-3.5,4.6-3.5
+                       c1.7,0,3.3,0.5,4.5,1.3L64,3.5z M69.7,0.1h2.7v5h5.4v-5h2.7V12h-2.7V7.3h-5.4V12h-2.7V0.1z M85.8,0.1h9.1v2.2h-6.4v2.6h5.7v2.2h-5.7
+                       v2.6H95V12h-9.2V0.1z M99.8,0.1h2.7v9.6h5.1V12h-7.8V0.1z M110.7,0.1h9.9v2.3h-3.6V12h-2.7V2.4h-3.6V0.1z M124.8,0.1h9.1v2.2h-6.4
+                       v2.6h5.7v2.2h-5.7v2.6h6.6V12h-9.2V0.1z M149.2,12h-3l-1.9-3.4h-2.7V12h-2.7V0.1h5.2c3.1,0,4.9,1.5,4.9,4.1c0,1.8-0.8,3.2-2.2,3.8
+                       L149.2,12z M141.6,2.3v4h2.5c1.5,0,2.3-0.7,2.3-2c0-1.3-0.9-2-2.3-2H141.6z"></path></svg>
+                </a>
+            </h1>
+            <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="svg" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+            <nav class="nav">
+                <ul class="ul1">
+                    <li class="li">Live</li>
+                    <li class="li">Work</li>
+                    <li class="li">Relax</li>
+                    <li class="li">Studio</li>
+                    <li class="li">Gallery</li>
+                    <li class="li">About</li>
+                </ul>
+            </nav>
+                <ul class="ul2">
+                    <li class="li">Sound</li>
+                    <li class="li">Contact</li>
+                </ul>
+        </div>
+    </header>
+    <main class="main">
+        <div class="principal">
+            <video src="assets/home.mp4" class="video" autoplay muted></video>
+            <div class="titulos">
+                <h2 class="h2">New way of living.</h2>
+                <h3 class="h3">Change the way you live life, closer to nature.</h3>
+            </div>
+            <div class="blancopequenio">
+                <div class="nav">
+                    <ul class="ul">
+                        <li class="item">
+                            <div class="texto">Nr. 01</div>
+                            <h4 class="h4">
+                                <a href="#" class="enlace">Live in ark</a>
+                            </h4>
+                            <a href="#" class="a">Learn more about arks to live in</a>
+                            <svg xmlns="http://www.w3.org/2000/svg"   class="svg-arrowright" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                              </svg>
+                        </li>
+                        <li class="item">
+                            <div class="texto">Nr. 02</div>
+                            <h4 class="h4">
+                                <a href="#" class="enlace">Work in an ark</a>
+                            </h4>
+                            <a href="#" class="a">Learn more about office arks</a>
+                            <svg xmlns="http://www.w3.org/2000/svg"   class="svg-arrowright" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                              </svg>
+                        </li>
+                        <li class="item relax">
+                            <div class="texto">Nr. 03</div>
+                            <h4 class="h4">
+                                <a href="#" class="enlace">Relax in an ark</a>
+                            </h4>
+                            <a href="#" class="a">Learn more about arks at home</a>
+                            <svg xmlns="http://www.w3.org/2000/svg"   class="svg-arrowright" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                              </svg>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="vertical">
+                <h3 class="h3">Modular, sustainable, premium.</h3>
+            </div>
+        </div>
+        <div class="blancogrande">
+            <div class="wrapper">
+                <ul class="ul">
+                    <li class="li">Nr. 01</li>
+                    <li class="li">Our philosophy for arks</li>
+                    <li class="li">Back to nature</li>
+                </ul>
+            </div>
+        </div>
+        <div class="blancotexto01">
+            <div class="wrapper">
+                <div class="pregunta">What's Ark-Shelter?</div>
+                <div class="caja">
+                    <h2 class="titulo">Ark-Shelters are prefabricated, fully finished, modular units. By a lake, deep in a forest, at the edge of a field, a steep mountain hill or your city rooftop! Make your dream come true, installed in one day, no extra on-site work.</h2>
+                    <div class="cajap">
+                        <p class="p">The shelters are built in one piece, which gives the incredible mobility to reach your dream location. Modularity ensures that over time you can grow your Ark to your needs. The units are created by craftsmen in our factory.</p>
+                        <p class="p">We have ideal conditions and are able to reach the highest details and reduce production time. Which allows us to keep control of the price, remove any onsite construction constraints and make your dream home, on time, on budget, at the highest quality possible.</p>
+                    </div>
+                    <div class="texto">Choose your purpose</div>
+                    <ul class="ul">
+                        <li class="li">
+                            <a href="#" class="a">Ark-Shelter to live in closer nature</a>
+                        </li>
+                        <li class="li">
+                            <a href="#" class="a">Ark-Shelter as an office</a>
+                        </li>
+                        <li class="li">
+                            <a href="#" class="a">Ark-Shelter to relax in at home</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="imagen">
+            <div class="boton">Look around in the ark-shelter</div>
+        </div>
+        <!-- <div class="blancotexto02">
+            <ul class="ul">
+                <li class="li">Nr. 02</li>
+                <li class="li">Why ark Shelter?</li>
+                <li class="li">Back to nature</li>
+            </ul>
+            <div class="wrapper">
+                <div class="texto">
+                    <section class="section">
+                        <h3 class="h3">Find a space to unwind</h3>
+                        <p class="p">Ark-Shelter shows the beauty of natural light and allows you to reconnect with nature. The large single pane windows seamlessly integrate the natural environment within your Ark. Enjoy a moment for yourself and take time to unwind.</p>
+                    </section>
+                    <section class="section">
+                        <h3 class="h3">Connect with nature</h3>
+                        <p class="p">Due to Ark-Shelter’s self-sufficient system and ecological materials, you’ll live with zero-impact. Become as productive as nature itself, and grow and bloom within your own Ark.</p>
+                    </section>
+                    <div class="suple">Need more info?</div>
+                    <a href="#" class="a">Download our brochure</a>
+                    <a href="#" class="a">Ask us your questions</a>
+                </div>
+                <img src="assets/" alt="" class="imagen">                
+            </div>
+        </div>
+    </main> -->
+    
+</body>
+</html>
